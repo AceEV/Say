@@ -27,7 +27,7 @@ jobs:
       run: mvn -Dmaven.resolver.transport=wagon -B package --file pom.xml
 
     - name: Print pom
-        run: cat pom.xml
+      run: cat pom.xml
 
     - name: Publish to GitHub Packages Apache Maven
       run: mvn --batch-mode deploy
