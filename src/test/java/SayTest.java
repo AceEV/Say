@@ -28,4 +28,10 @@ public class SayTest {
         String actualValue = say.sayTheOtherThing();
         Assert.assertEquals("the other thing", actualValue);
     }
+
+    @Test
+    public void sayMoreInVersion2() {
+        String actualValue = say.sayMoreInVersion2();
+        Assert.assertEquals("more in version 2", actualValue);
+    }
 }
