@@ -30,8 +30,7 @@ jobs:
       run: cat pom.xml
 
     - name: Print Settings XML
-      run: cat settings.xml
-
+      run: ls
     - name: Publish to GitHub Packages Apache Maven
       run: mvn --batch-mode deploy
       env:
