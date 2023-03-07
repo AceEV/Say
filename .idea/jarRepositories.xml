@@ -21,5 +21,10 @@
       <option name="name" value="NexLP GitHub Maven Packages" />
       <option name="url" value="https://maven.pkg.github.com/nexlp/packages" />
     </remote-repository>
+    <remote-repository>
+      <option name="id" value="aceev-say" />
+      <option name="name" value="AceEV Say GitHub Maven Packages" />
+      <option name="url" value="https://maven.pkg.github.com/aceev/say" />
+    </remote-repository>
   </component>
 </project>

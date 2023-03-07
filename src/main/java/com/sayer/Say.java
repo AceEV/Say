@@ -1,3 +1,5 @@
+package com.sayer;
+
 public class Say {
     public String saySomething(){
         return "something";
